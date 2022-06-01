@@ -1,2 +1,2 @@
-#!/bin/bas
-find . -type d -not -name '.' | wc -l
+#!/bin/bash
+ls -l | grep -c ^d
